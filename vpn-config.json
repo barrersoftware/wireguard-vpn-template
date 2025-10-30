@@ -1,0 +1,30 @@
+{
+  "company": {
+    "name": "Your Company VPN",
+    "package": "com.yourcompany.vpn",
+    "tunnel_name": "Company VPN",
+    "website": "https://yourcompany.com",
+    "support_email": "support@yourcompany.com"
+  },
+  "vpn": {
+    "server_ip": "vpn.example.com",
+    "server_port": "51820",
+    "client_private_key": "GENERATE_NEW_KEY",
+    "server_public_key": "GENERATE_NEW_KEY",
+    "client_ip": "10.99.1.2/24",
+    "allowed_ips": "10.99.0.0/16, 192.168.0.0/16",
+    "dns": "1.1.1.1, 1.0.0.1",
+    "persistent_keepalive": "25"
+  },
+  "branding": {
+    "app_icon": "assets/icon.png",
+    "primary_color": "#0066CC",
+    "accent_color": "#00CC66"
+  },
+  "signing": {
+    "keystore": "release.keystore",
+    "alias": "release",
+    "store_password": "ENV:KEYSTORE_PASS",
+    "key_password": "ENV:KEY_PASS"
+  }
+}
