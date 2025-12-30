@@ -615,7 +615,7 @@ You must:
 
 ## 🗺️ Roadmap
 
-### v1.1 (Next Release)
+### v1.2 (Next Release)
 - [ ] iOS support
 - [ ] Windows client
 - [ ] macOS client
